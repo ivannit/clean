@@ -10,6 +10,6 @@
         <script src="<?php echo URLROOT; ?>/public/javascript/functions.js"></script>
     </head>
     <body onload="setSizeSession('<?php echo URLROOT; ?>');
-    <?php echo ($_GET['url'] == 'pages/skizze' ? 'initCanvas();' : ''); ?>">
+    <?php echo ($_GET['url'] == 'pages/quotes' ? 'initCanvas();' : ''); ?>">
         
         
