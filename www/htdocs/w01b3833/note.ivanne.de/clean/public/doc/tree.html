@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Folder structure</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <pre>
+
+2020-12-19
+
+clean
+
+|   .gitignore
+|   .htaccess
+|
++---app
+|   |   .htaccess
+|   |   require.php
+|   |
+|   +---config
+|   |       config.php
+|   |
+|   +---controllers
+|   |       Alarms.php
+|   |       Notes.php
+|   |       Pages.php
+|   |       Users.php
+|   |
+|   +---external
+|   |   \---PHPMailer
+|   |       |   PHPMailerAutoload.php
+|   |       |   [...]
+|   |
+|   +---helpers
+|   |       mail.php
+|   |       resize.php
+|   |       start.php
+|   |
+|   +---mains
+|   |       Controller.php
+|   |       Core.php
+|   |       Database.php
+|   |
+|   +---models
+|   |       Alarm.php
+|   |       Note.php
+|   |       User.php
+|   |
+|   +---scripts
+|   |       notes.php
+|   |       pix.php
+|   |       size.php
+|   |       xml.php
+|   |
+|   \---views
+|       +---includes
+|       |       canvas.php
+|       |       footer.php
+|       |       head.php
+|       |       navheader.php
+|       |
+|       +---notes
+|       |       create.php
+|       |       filter.php
+|       |       list.php
+|       |       maxpix.php
+|       |       minpix.php
+|       |       table.php
+|       |
+|       +---pages
+|       |       datenschutz.php
+|       |       impressum.php
+|       |       index.php
+|       |       info.php
+|       |       quotes.php
+|       |
+|       \---users
+|               login.php
+|               register.php
+|               reset.php
+|               sendlink.php
+|
+\---public
+    |   .htaccess
+    |   index.php
+    |
+    +---css
+    |   |   style.css
+    |   |
+    |   \---fonts
+    |       +---La_Belle_Aurore
+    |       |       LaBelleAurore-Regular.ttf
+    |       |       OFL.txt
+    |       |
+    |       \---Oxygen_Mono
+    |               OFL.txt
+    |               OxygenMono-Regular.ttf
+    |
+    +---doc
+    |       MySQLdesign.PNG
+    |       tree.html
+    |
+    +---img
+    |       animated-running.gif
+    |       favicon-16x16.png
+    |       favicon-32x32.png
+    |       favicon.ico
+    |       gesture-24px.svg
+    |       man-running.PNG
+    |       mandelbrot-icon.svg
+    |       palette-24px.svg
+    |       pixabay-running.jpg
+    |
+    \---javascript
+            functions.js
+        </pre>
+    </body>
+</html>
