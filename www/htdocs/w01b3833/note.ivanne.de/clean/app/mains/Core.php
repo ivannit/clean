@@ -13,9 +13,9 @@ class Core {
         $url = $this->getUrl();
 
         // exclude scripts from URL handling especially for AJAX calls
-        //if ($url[0] == 'scripts') {
-        //    require_once APPROOT . '/' . $url[0] . '/' . $url[1];
-        //} else {
+        if ($url[0] == 'scripts') {
+            require_once APPROOT . '/' . $url[0] . '/' . $url[1];
+        } else {
 
             // capitalize first letter
             if (file_exists(APPROOT . '/controllers/' . ucwords($url[0]) . '.php')) {
@@ -38,7 +38,7 @@ class Core {
 
             // call a callback with array of params
             call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
-        //} // das war QUATSCH
+        }
     }
 
     public function getUrl() {
