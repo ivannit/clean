@@ -31,7 +31,8 @@
                         <?php foreach (explode(' ', $note->pixids) as $id): ?>
                             <?php if ($id > 0): ?>
                                 <img src="<?php echo URLROOT; ?>/notes/minpix/<?php echo $id ?>"
-                                     onclick="maximizePix('<?php echo URLROOT; ?>', <?php echo $id ?>)">
+                                     onclick="maximizePix('<?php echo URLROOT; ?>', <?php echo $id ?>)"
+                                     alt="Notiz <?php echo $note->noteid; ?>">
                                      <?php endif; ?>
                                  <?php endforeach; ?>
                     </td>
