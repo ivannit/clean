@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * I DON'T UNSERSTAND YET
+ * With this controller I only get the index view.
+ * I still have to find out what's wrong.
+ * If you see the reason then 
+ * please let me know
+ * thx.
+ */
 class Scripts extends Controller {
 
     public function __construct() {
