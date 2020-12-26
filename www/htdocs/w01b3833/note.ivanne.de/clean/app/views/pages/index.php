@@ -2,7 +2,7 @@
 include_once APPROOT . '/views/includes/head.php';
 ?>
 
-<section>
+<section id="landing" class="wall zoom">
     <?php
     include_once APPROOT . '/views/includes/navheader.php'
     ?>

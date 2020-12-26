@@ -9,7 +9,7 @@
         <link type="text/css" rel="stylesheet" href="<?php echo URLROOT; ?>/public/css/style.css">
         <script src="<?php echo URLROOT; ?>/public/javascript/functions.js"></script>
     </head>
-    <body onload="setSizeSession('<?php echo URLROOT; ?>');
+    <body onload="setSizeSession('<?php echo URLROOT; ?>');sharpenBackground();
     <?php echo ($_GET['url'] == 'pages/quotes' ? 'initCanvas();' : ''); ?>">
         
         

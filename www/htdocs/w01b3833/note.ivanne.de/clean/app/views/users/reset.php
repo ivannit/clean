@@ -2,7 +2,7 @@
 require APPROOT . '/views/includes/head.php';
 ?>
 
-<section class="container">
+<section class="full wall container">
 <?php
 include_once APPROOT . '/views/includes/navheader.php';
 ?>

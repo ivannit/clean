@@ -2,7 +2,7 @@
 include_once APPROOT . '/views/includes/head.php';
 ?>
 
-<section class="container">
+<section class="full wall container">
     <?php
     include_once APPROOT . '/views/includes/navheader.php';
     ?>
@@ -15,7 +15,7 @@ include_once APPROOT . '/views/includes/head.php';
                 ?>
             </div>
             <div class="column right">
-                <div class="hidden mouse-only" id="apple-title">Skizze mit Mandelbrotmenge übermalen<br/>(dafür 10x klicken und abwarten)</div>
+                <div class="hidden mouse-only" id="apple-title">Skizze mit Mandelbrotmenge <i>über</i>malen:<br/>bis zu 10 Mal klicken und warten</div>
                 <i class="mouse-only" id="apple" onclick="appleman();return false;" onmouseenter="showAppleWarning();" onmouseout="hideAppleWarning();">
                     <img alt="Mandelbrotmenge" src="<?php echo URLROOT; ?>/public/img/mandelbrot-icon.svg" width=40>
                 </i>

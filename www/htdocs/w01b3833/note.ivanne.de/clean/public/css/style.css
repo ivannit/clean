@@ -76,13 +76,30 @@ input, button, select, option, textarea {
     text-decoration: overline !important;
 }
 
-section {
+.wall {
     background: url('https://note.ivanne.de/clean/public/img/pixabay-running.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
     margin-top: 4em;
+    transition: height 1.8s ease;
+}
+
+.full {
+    height: 100%;
+}
+
+.zoom {
+    height: 150%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.bright-back {
+    background-color: rgb(255, 255, 255, .2);
+    padding: 1em;
 }
 
 .wrapper-landing {
@@ -243,6 +260,7 @@ footer a {
     overflow-y: scroll;
     min-height: 100%;
 }
+
 .wrapper-scroll {
     margin: 4em 0 22em 2em;
 }

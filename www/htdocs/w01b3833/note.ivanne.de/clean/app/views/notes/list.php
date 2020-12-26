@@ -2,7 +2,7 @@
 include_once APPROOT . '/views/includes/head.php';
 ?>
 
-<section class="container-scroll">
+<section class="full wall container-scroll">
     <?php
     include_once APPROOT . '/views/includes/navheader.php';
     ?>

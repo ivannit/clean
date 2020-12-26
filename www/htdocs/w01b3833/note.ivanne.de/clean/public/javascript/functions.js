@@ -4,6 +4,12 @@ function setSizeSession(url) {
     vanillaLoad(url + "/scripts/size.php", formData, null);
 }
 
+function sharpenBackground() {
+    landing = document.getElementById("landing");
+    landing.classList.remove("zoom");
+    landing.classList.add("full");
+}
+
 function inputPicture(id) {
     var pictures = document.getElementsByName("pictures[]");
     if (pictures.length < 50) {

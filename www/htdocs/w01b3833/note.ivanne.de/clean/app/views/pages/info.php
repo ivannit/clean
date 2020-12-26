@@ -2,7 +2,7 @@
 include_once APPROOT . '/views/includes/head.php';
 ?>
 
-<section>
+<section class="full wall">
     <?php
     include_once APPROOT . '/views/includes/navheader.php';
     ?>
