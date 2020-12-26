@@ -5,9 +5,11 @@ function setSizeSession(url) {
 }
 
 function sharpenBackground() {
-    landing = document.getElementById("landing");
+    var landing = document.getElementById("landing");
+    if (landing != null) {
     landing.classList.remove("zoom");
     landing.classList.add("full");
+    }
 }
 
 function inputPicture(id) {
