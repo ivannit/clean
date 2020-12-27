@@ -18,8 +18,8 @@ include_once APPROOT . '/views/includes/head.php';
         </p>
         
         <p class="linking">
-            <a target="_blank" href="https://www.youtube.com/channel/UC27jKTT3SQWNvEevoJ6Nbnw">
-                Youtube-Kanal ansehen</a>
+            <a target="_blank" href="https://www.youtube.com/watch?v=eT1Ol11fMmw&list=PLGWt9Jkurg8IhWazGqYefE1OkecSMV4iH">
+                Youtube-Vorführung ansehen</a>
         </p>
 
     </div>
