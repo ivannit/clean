@@ -26,7 +26,7 @@ include_once APPROOT . '/views/includes/head.php';
                     to think for ourselves and to act accordingly.</q>
                 <p>― Melanie Joy</p>
                 <br/>
-                <q cite="Why We Love Dogs, Eat Pigs, and Wear Cows">If
+                <q cite="Animal Liberation Movement">If
                     you are not the victim, don't examine it entirely from 
                     your point of view because when YOU'RE not the victim, it 
                     becomes pretty easy to rationalize and excuse cruelty, 
