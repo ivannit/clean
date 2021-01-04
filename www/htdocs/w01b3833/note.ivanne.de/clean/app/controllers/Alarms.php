@@ -40,7 +40,7 @@ class Alarms extends Controller {
             $day_diff = floor(abs($this->td['current_unix_ts'] - $expiry_unix_ts) / 86400);
 
             $send_now = (
-                    ($this->td['current_datehour'] == $expiry_datehour && $this->td['urrent_10min'] == $expiry_10min) || (
+                    ($this->td['current_datehour'] == $expiry_datehour && $this->td['current_10min'] == $expiry_10min) || (
                     ($this->td['current_hour'] == $expiry_hour && $this->td['current_10min'] == $expiry_10min) && (
                     (is_numeric($alarm->repeat) && $day_diff % $alarm->repeat == 0) ||
                     ($alarm->repeat == 'Täglich') ||
@@ -56,10 +56,7 @@ class Alarms extends Controller {
     }
 
     public function please($send, $to, $name, $subj, $id) {
-        echo 'HIER please';
-        echo "$send, $to, $name, $subj, $id<br/>";
         if ($send == true) {
-            echo 'send = true <br>';
             $from = 'note@ivanne.de';
             $msg = '<a href="' . URLROOT . '">' . URLROOT . '</a>';
             if (smtpMail($to, $from, $name, $subj, $msg) && $this->alarmModel->updateSent($id)) {
