@@ -1,5 +1,5 @@
 # clean
-German documentation: https://note.ivanne.de/clean/public/doc/HomepageDoku_2020-12-24.pdf
+German documentation: https://note.ivanne.de/clean/public/doc/HomepageDoku_2020-2021.pdf
 ## 
 
 Note that the ignored config-file looks like that:
