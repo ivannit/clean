@@ -1,7 +1,8 @@
-# clean
+# clean note
+### school project
 German documentation: https://note.ivanne.de/clean/public/doc/HomepageDoku_2020-2021.pdf
 ##
-Database-structure: [SQL-dump](https://github.com/ivannit/clean/blob/master/www/htdocs/w01b3833/note.ivanne.de/clean/noteDB.sql)
+### Database-structure: [SQL-dump](https://github.com/ivannit/clean/blob/master/www/htdocs/w01b3833/note.ivanne.de/clean/noteDB.sql)
 ##
 
 Note that the ignored config-file looks like that:
